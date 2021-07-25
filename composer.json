@@ -1,0 +1,23 @@
+{
+    "name": "ws-jedp/blue-ocean",
+    "description": "A digital version of the tools and concepts of the book The Blue Ocean Strategy.",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Juan Esteban",
+            "email": "jedp082@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "App\\": "App/",
+            "Databases\\": "App/Databases",
+            "Controllers\\": "App/Controllers",
+            "Helpers\\": "App/Helpers",
+            "Models\\": "App/Models"
+        }
+    }
+}
